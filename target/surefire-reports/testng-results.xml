@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T16:07:51 GMT+05:30" name="sidebarmenuSuite" finished-at="2022-08-05T16:08:11 GMT+05:30" duration-ms="19933">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T16:07:51 GMT+05:30" name="Test" finished-at="2022-08-05T16:08:11 GMT+05:30" duration-ms="19933">
+      <class name="com.atmecs.saucedemo.testscripts.SidebarMenuTest">
+        <test-method signature="verifyAllitemsMenu()[pri:1, instance:com.atmecs.saucedemo.testscripts.SidebarMenuTest@f0da945]" started-at="2022-08-05T16:07:51 GMT+05:30" name="verifyAllitemsMenu" finished-at="2022-08-05T16:07:54 GMT+05:30" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllitemsMenu -->
+        <test-method signature="verifyAboutMenu()[pri:2, instance:com.atmecs.saucedemo.testscripts.SidebarMenuTest@f0da945]" started-at="2022-08-05T16:07:54 GMT+05:30" name="verifyAboutMenu" finished-at="2022-08-05T16:08:00 GMT+05:30" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutMenu -->
+        <test-method signature="verifyLogoutMenu()[pri:3, instance:com.atmecs.saucedemo.testscripts.SidebarMenuTest@f0da945]" started-at="2022-08-05T16:08:00 GMT+05:30" name="verifyLogoutMenu" finished-at="2022-08-05T16:08:02 GMT+05:30" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutMenu -->
+        <test-method signature="verifyResetAppStateMenu()[pri:4, instance:com.atmecs.saucedemo.testscripts.SidebarMenuTest@f0da945]" started-at="2022-08-05T16:08:02 GMT+05:30" name="verifyResetAppStateMenu" finished-at="2022-08-05T16:08:11 GMT+05:30" duration-ms="8520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetAppStateMenu -->
+      </class> <!-- com.atmecs.saucedemo.testscripts.SidebarMenuTest -->
+    </test> <!-- Test -->
+  </suite> <!-- sidebarmenuSuite -->
+  <suite started-at="2022-08-05T16:08:15 GMT+05:30" name="My test suite" finished-at="2022-08-05T16:08:15 GMT+05:30" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- My test suite -->
+  <suite started-at="2022-08-05T16:08:11 GMT+05:30" name="productorderSuite" finished-at="2022-08-05T16:08:15 GMT+05:30" duration-ms="4036">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T16:08:11 GMT+05:30" name="Test" finished-at="2022-08-05T16:08:15 GMT+05:30" duration-ms="4036">
+      <class name="com.atmecs.saucedemo.testscripts.ProductOrderTest">
+        <test-method signature="checkFuntionalityOfProduct()[pri:0, instance:com.atmecs.saucedemo.testscripts.ProductOrderTest@4b8ee4de]" started-at="2022-08-05T16:08:11 GMT+05:30" name="checkFuntionalityOfProduct" finished-at="2022-08-05T16:08:15 GMT+05:30" duration-ms="4035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFuntionalityOfProduct -->
+      </class> <!-- com.atmecs.saucedemo.testscripts.ProductOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- productorderSuite -->
+  <suite started-at="2022-08-05T16:07:44 GMT+05:30" name="parallelbroserSuite" finished-at="2022-08-05T16:07:51 GMT+05:30" duration-ms="6851">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T16:07:44 GMT+05:30" name="FirefoxTest" finished-at="2022-08-05T16:07:48 GMT+05:30" duration-ms="4052">
+      <class name="com.atmecs.saucedemo.testscripts.ParallelBrowser">
+        <test-method signature="parallelTest(java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.ParallelBrowser@bae7dc0]" started-at="2022-08-05T16:07:44 GMT+05:30" name="parallelTest" finished-at="2022-08-05T16:07:48 GMT+05:30" duration-ms="4050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelTest -->
+      </class> <!-- com.atmecs.saucedemo.testscripts.ParallelBrowser -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-08-05T16:07:48 GMT+05:30" name="ChromeTest" finished-at="2022-08-05T16:07:51 GMT+05:30" duration-ms="2797">
+      <class name="com.atmecs.saucedemo.testscripts.ParallelBrowser">
+        <test-method signature="parallelTest(java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.ParallelBrowser@6392827e]" started-at="2022-08-05T16:07:48 GMT+05:30" name="parallelTest" finished-at="2022-08-05T16:07:51 GMT+05:30" duration-ms="2797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelTest -->
+      </class> <!-- com.atmecs.saucedemo.testscripts.ParallelBrowser -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- parallelbroserSuite -->
+  <suite started-at="2022-08-05T16:07:28 GMT+05:30" name="loginpageSuite" finished-at="2022-08-05T16:07:44 GMT+05:30" duration-ms="15790">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T16:07:28 GMT+05:30" name="Test" finished-at="2022-08-05T16:07:44 GMT+05:30" duration-ms="15790">
+      <class name="com.atmecs.saucedemo.testscripts.LoginPageTest">
+        <test-method signature="nagitiveLoginData(java.lang.String,java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.LoginPageTest@101952da]" started-at="2022-08-05T16:07:29 GMT+05:30" name="nagitiveLoginData" data-provider="getExcelData" finished-at="2022-08-05T16:07:33 GMT+05:30" duration-ms="3881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[worngpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nagitiveLoginData -->
+        <test-method signature="nagitiveLoginData(java.lang.String,java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.LoginPageTest@101952da]" started-at="2022-08-05T16:07:33 GMT+05:30" name="nagitiveLoginData" data-provider="getExcelData" finished-at="2022-08-05T16:07:36 GMT+05:30" duration-ms="2614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wornguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nagitiveLoginData -->
+        <test-method signature="nagitiveLoginData(java.lang.String,java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.LoginPageTest@101952da]" started-at="2022-08-05T16:07:36 GMT+05:30" name="nagitiveLoginData" data-provider="getExcelData" finished-at="2022-08-05T16:07:38 GMT+05:30" duration-ms="2710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wornguser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[worngpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nagitiveLoginData -->
+        <test-method signature="nagitiveLoginData(java.lang.String,java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.LoginPageTest@101952da]" started-at="2022-08-05T16:07:38 GMT+05:30" name="nagitiveLoginData" data-provider="getExcelData" finished-at="2022-08-05T16:07:41 GMT+05:30" duration-ms="2577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nagitiveLoginData -->
+        <test-method signature="nagitiveLoginData(java.lang.String,java.lang.String)[pri:0, instance:com.atmecs.saucedemo.testscripts.LoginPageTest@101952da]" started-at="2022-08-05T16:07:41 GMT+05:30" name="nagitiveLoginData" data-provider="getExcelData" finished-at="2022-08-05T16:07:44 GMT+05:30" duration-ms="3176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nagitiveLoginData -->
+      </class> <!-- com.atmecs.saucedemo.testscripts.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- loginpageSuite -->
+</testng-results>
